@@ -62,7 +62,7 @@ function UserPage() {
       <div className="mb-4">
         <div
           className="g-recaptcha"
-          data-sitekey="6LcocWsqAAAAAE_nodEl5RwWqx-_A6cxfJj0fT5A" // کلید سایت reCAPTCHA خود را اینجا قرار دهید
+          data-sitekey="YOUR_RECAPTCHA_SITE_KEY" // کلید سایت reCAPTCHA خود را اینجا قرار دهید
           data-callback={onCaptchaChange} // وقتی کپچا تایید شد، این تابع فراخوانی می‌شود
         ></div>
       </div>
